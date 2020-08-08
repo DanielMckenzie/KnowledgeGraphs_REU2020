@@ -1,0 +1,353 @@
+@prefix : <http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology> .
+
+<http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#because_of
+:because_of rdf:type owl:ObjectProperty ;
+            rdfs:domain :personal_details ;
+            rdfs:range :motive .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#by_means_of
+:by_means_of rdf:type owl:ObjectProperty ;
+             rdfs:domain :Character ;
+             rdfs:range :means .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#came_to_island_for
+:came_to_island_for rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Character ;
+                    rdfs:range :arrival_on_island .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#character_of
+:character_of rdf:type owl:ObjectProperty ;
+              rdfs:domain :poem ;
+              rdfs:range :poem .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#committed
+:committed rdf:type owl:ObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#death_by
+:death_by rdf:type owl:ObjectProperty ;
+          rdfs:domain :poem ;
+          rdfs:range :poem .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#describes
+:describes rdf:type owl:ObjectProperty ;
+           rdfs:domain :record ;
+           rdfs:range :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#died_by
+:died_by rdf:type owl:ObjectProperty ;
+         rdfs:domain :Character ;
+         rdfs:range :methods .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#died_in
+:died_in rdf:type owl:ObjectProperty ;
+         rdfs:domain :Character ;
+         rdfs:range :death_place .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#escaped_conviction_of
+:escaped_conviction_of rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Character ;
+                       rdfs:range :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#found_body_of
+:found_body_of rdf:type owl:ObjectProperty ;
+               rdfs:domain :Character ;
+               rdfs:range :discovery .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#found_by
+:found_by rdf:type owl:ObjectProperty ;
+          rdfs:domain :methods ;
+          rdfs:range :Character .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#found_clue
+:found_clue rdf:type owl:ObjectProperty ;
+            rdfs:domain :Character ;
+            rdfs:range :clues .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#given_by
+:given_by rdf:type owl:ObjectProperty ;
+          rdfs:domain :methods ;
+          rdfs:range :Character .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#had_killed
+:had_killed rdf:type owl:ObjectProperty ;
+            rdfs:domain :Character ,
+                        :personal_details ;
+            rdfs:range :victims .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_died
+:has_died rdf:type owl:ObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :death .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_firstname
+:has_firstname rdf:type owl:ObjectProperty ;
+               rdfs:domain :Character ;
+               rdfs:range :first_name .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_lastname
+:has_lastname rdf:type owl:ObjectProperty ;
+              rdfs:domain :Character ;
+              rdfs:range :last_name .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_predicate
+:has_predicate rdf:type owl:ObjectProperty ;
+               rdfs:domain :Character ;
+               rdfs:range :time_event .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_profession
+:has_profession rdf:type owl:ObjectProperty ;
+                rdfs:domain :Character ;
+                rdfs:range :profession .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_setting
+:has_setting rdf:type owl:ObjectProperty ;
+             rdfs:domain :Character ;
+             rdfs:range :setting .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_title
+:has_title rdf:type owl:ObjectProperty ;
+           rdfs:domain :poem ;
+           rdfs:range :poem .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#heard_clue
+:heard_clue rdf:type owl:ObjectProperty ;
+            rdfs:domain :clues ;
+            rdfs:range :sounds .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#invited_by
+:invited_by rdf:type owl:ObjectProperty ;
+            rdfs:domain :Character ;
+            rdfs:range :invitation .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#is_named
+:is_named rdf:type owl:ObjectProperty ;
+          rdfs:domain :record ;
+          rdfs:range :record .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#married_to
+:married_to rdf:type owl:ObjectProperty ;
+            rdfs:domain :Character ;
+            rdfs:range :relations .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#owned_by
+:owned_by rdf:type owl:ObjectProperty ;
+          rdfs:domain :methods ;
+          rdfs:range :Character .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#has_time
+:has_time rdf:type owl:DatatypeProperty ;
+          rdfs:domain :personal_details ,
+                      :time_event ;
+          rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#Character
+:Character rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#access
+:access rdf:type owl:Class ;
+        rdfs:subClassOf :methods .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#arrival_on_island
+:arrival_on_island rdf:type owl:Class ;
+                   rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#circumstances
+:circumstances rdf:type owl:Class ;
+               rdfs:subClassOf :details_of_death .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#clues
+:clues rdf:type owl:Class ;
+       rdfs:subClassOf :Character .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#consequences_of_crime
+:consequences_of_crime rdf:type owl:Class ;
+                       rdfs:subClassOf :time_event .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#crime
+:crime rdf:type owl:Class ;
+       rdfs:subClassOf :time_event .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#death
+:death rdf:type owl:Class ;
+       rdfs:subClassOf :time_event .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#death_place
+:death_place rdf:type owl:Class ;
+             rdfs:subClassOf :details_of_death .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#details_of_death
+:details_of_death rdf:type owl:Class ;
+                  rdfs:subClassOf :Character .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#discovery
+:discovery rdf:type owl:Class ;
+           rdfs:subClassOf :clues .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#first_name
+:first_name rdf:type owl:Class ;
+            rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#invitation
+:invitation rdf:type owl:Class ;
+            rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#last_name
+:last_name rdf:type owl:Class ;
+           rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#means
+:means rdf:type owl:Class ;
+       rdfs:subClassOf :methods .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#methods
+:methods rdf:type owl:Class ;
+         rdfs:subClassOf :circumstances .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#motive
+:motive rdf:type owl:Class ;
+        rdfs:subClassOf :crime .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#personal_details
+:personal_details rdf:type owl:Class ;
+                  rdfs:subClassOf :Character .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#poem
+:poem rdf:type owl:Class ;
+      rdfs:subClassOf :clues .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#profession
+:profession rdf:type owl:Class ;
+            rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#record
+:record rdf:type owl:Class ;
+        rdfs:subClassOf :sounds .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#relations
+:relations rdf:type owl:Class ;
+           rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#setting
+:setting rdf:type owl:Class ;
+         rdfs:subClassOf :personal_details .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#sounds
+:sounds rdf:type owl:Class ;
+        rdfs:subClassOf :clues .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#time_event
+:time_event rdf:type owl:Class ;
+            rdfs:subClassOf :Character .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#victims
+:victims rdf:type owl:Class ;
+         rdfs:subClassOf :crime .
+
+
+###  http://www.semanticweb.org/carol/ontologies/2020/6/attwn_ontology#weapons
+:weapons rdf:type owl:Class ;
+         rdfs:subClassOf :clues .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :arrival_on_island
+                :first_name
+                :last_name
+                :profession
+                :relations
+                :setting
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :came_to_island_for
+                :has_firstname
+                :has_lastname
+                :has_profession
+                :has_setting
+                :married_to
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

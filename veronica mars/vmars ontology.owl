@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#"
+     xml:base="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#arrested_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#arrested_for">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#belongs_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#belongs_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#bestfriend_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#bestfriend_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#boyfriend_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#boyfriend_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#child_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#child_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#classified_as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#classified_as">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#classification"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#client_is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#client_is">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#role_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#clue_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#clue_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#died_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#died_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#method"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#dislikes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#dislikes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#employ_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#employ_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#ex_friend_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#ex_friend_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#ex_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#ex_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#father_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#father_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#found_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#found_with">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#friend_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#friend_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#girlfriend_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#girlfriend_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_affair_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_affair_with">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_age -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_age">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#age"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_enemy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_enemy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_financial_status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_financial_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_first_name -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_first_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_last_name -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_last_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_nickname -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_nickname">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_predicate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_predicate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_profession -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_profession">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_symptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_symptom">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#symptoms"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_trait -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_trait">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#traits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#in_club -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#in_club">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#clubs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#is_character -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#is_character">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#is_colleague_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#is_colleague_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#is_diagnosed_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#is_diagnosed_with">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#medical_information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#married_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#married_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#mother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#mother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#social_group"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#sibling_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#sibling_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#split_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#split_from">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#character"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#suspect_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#suspect_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#role_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#victim_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#victim_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#case"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#role_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#has_time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#alibi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#alibi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#clubs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#clubs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#financial_status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#financial_status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#medical_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#medical_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#profession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#profession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#role_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#role_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#social_group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#social_group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#personal_details"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#symptoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#symptoms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#medical_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#traits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#traits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#Character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#witness_accounts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#witness_accounts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carol/ontologies/2020/6/vmars_ontology#evidence"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

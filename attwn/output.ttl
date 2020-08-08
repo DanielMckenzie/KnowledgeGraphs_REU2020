@@ -1,0 +1,280 @@
+@prefix ns1: <http://UCLA_REU_2020.org/ATTWN/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Anthony_Martson ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Anthony ;
+    ns1:has_lastname ns1:Marston ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record .
+
+ns1:Bear-shaped_clock ns1:owned_by ns1:Vera_Claythorne .
+
+ns1:Blow_to_head ns1:by_means_of ns1:rock ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:Character ns1:is_character ns1:Anthony_Marston,
+        ns1:Edward_Armstrong,
+        ns1:Emily_Brent,
+        ns1:Ethel_Rogers,
+        ns1:John_Macarthur_,
+        ns1:Philip_Lombard,
+        ns1:Thomas_Rogers,
+        ns1:Vera_Claythorne,
+        ns1:William_Blore .
+
+ns1:Eighth_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by ns1:big_bear_hugged_one .
+
+ns1:Fifth_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by ns1:bee_sting .
+
+ns1:First_Soldier ns1:character_of ns1:Poem ;
+    ns1:death_by ns1:choking .
+
+ns1:Fourth_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by ns1:chopped_in_halves .
+
+ns1:Gun ns1:owned_by ns1:Philip_Lombard .
+
+ns1:Ninth_Soldier ns1:character_of ns1:poem .
+
+ns1:Ninth_Solider ns1:death_by ns1:frizzled_up .
+
+ns1:Philip_Lombard_ ns1:has_profession ns1:veteran .
+
+ns1:Pills ns1:given_by ns1:Edward_Armstrong .
+
+ns1:Record ns1:describes ns1:past_crime ;
+    ns1:is_named ns1:Swan_Song .
+
+ns1:Second_Soldier ns1:character_of ns1:Poem ;
+    ns1:death_by ns1:overslept .
+
+ns1:Seventh_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by ns1:red_herring_swallowed_one .
+
+ns1:Sixth_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by ns1:got_in_chancery .
+
+ns1:Syringe ns1:owned_by ns1:Edward_Armstrong .
+
+ns1:Tenth_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by ns1:hanging .
+
+ns1:Third_Soldier ns1:character_of ns1:poem ;
+    ns1:death_by <http://UCLA_REU_2020.org/ATTWN/he'd_stay_there> .
+
+ns1:crushed ns1:by_means_of ns1:bear_shaped_clock ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:drowning ns1:by_means_of ns1:shove ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:gunshot ns1:by_means_of ns1:gun ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:hatchetwound ns1:by_means_of ns1:hatchet ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:injection ns1:by_means_of ns1:syringe ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:lieutenant ns1:has_predicate ns1:had_killed .
+
+ns1:sleep ns1:by_means_of ns1:pills ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:twentyone_people ns1:has_predicate ns1:had_killed .
+
+ns1:John_Macarthur ns1:came_to_island_for ns1:reunion ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:John ;
+    ns1:has_lastname ns1:Macarthur ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession ns1:Army_General ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record .
+
+ns1:boy ns1:has_predicate ns1:had_killed .
+
+ns1:choking ns1:by_means_of ns1:poison ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:defendant ns1:has_predicate ns1:had_killed .
+
+ns1:employer ns1:has_predicate ns1:had_killed .
+
+ns1:hanging ns1:by_means_of ns1:noose ;
+    ns1:has_predicate ns1:died_by .
+
+ns1:maid ns1:has_predicate ns1:had_killed .
+
+ns1:patient ns1:has_predicate ns1:had_killed .
+
+ns1:suspect ns1:has_predicate ns1:had_killed .
+
+ns1:two_children ns1:has_predicate ns1:had_killed .
+
+ns1:Philip_Lombard ns1:came_to_island_for ns1:job ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston,
+        ns1:Edward_Armstrong,
+        ns1:Emily_Brent,
+        ns1:Lawrence_Armstrong,
+        ns1:William_Blore ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Philip ;
+    ns1:has_lastname ns1:Lombard ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record ;
+    ns1:invited_by ns1:Isaac_Morris .
+
+ns1:Poem ns1:has_title ns1:Ten_Little_Soldiers .
+
+ns1:Vera_Claythorne ns1:came_to_island_for ns1:secretarial_position ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston,
+        ns1:Edward_Armstrong,
+        ns1:Emily_Brent,
+        ns1:Lawrence_Wargrave,
+        ns1:Thomas_Rogers,
+        ns1:William_Blore ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Vera ;
+    ns1:has_lastname ns1:Claythorne ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession ns1:former_governess ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record ;
+    ns1:invited_by ns1:Una_Nancy_Owen .
+
+ns1:Lawrence_Wargrave ns1:came_to_island_for ns1:friend ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston,
+        ns1:Emily_Brent ;
+    ns1:has_firstname ns1:Lawrence ;
+    ns1:has_lastname ns1:Wargrave ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession ns1:retired_judge ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record ;
+    ns1:invited_by ns1:Constance_Culmington .
+
+ns1:Thomas_Rogers ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston,
+        ns1:Ethel_Rogers ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Thomas ;
+    ns1:has_lastname ns1:Rogers ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession ns1:butler ;
+    ns1:heard_clue ns1:record ;
+    ns1:married_to ns1:Ethel_Rogers .
+
+ns1:William_Blore ns1:came_to_island_for ns1:case ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston,
+        ns1:Emily_Brent,
+        ns1:Lawrence_Wargrave ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:William ;
+    ns1:has_lastname ns1:Blore ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession_ ns1:former_detective ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record .
+
+ns1:Ethel_Rogers ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Ethel ;
+    ns1:has_lastname ns1:Rogers ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession ns1:housekeeper ;
+    ns1:heard_clue ns1:record ;
+    ns1:married_to ns1:Thomas_Rogers .
+
+ns1:Edward_Armstrong ns1:came_to_island_for ns1:check-up ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston,
+        ns1:Emily_Brent,
+        ns1:Ethel_Rogers,
+        ns1:John_Macarthur,
+        ns1:Lawrence_Wargrave ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Edward_ ;
+    ns1:has_lastname ns1:Armstrong ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_profession ns1:doctor ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record ;
+    ns1:invited_by ns1:Mr.Owen .
+
+ns1:Emily_Brent ns1:came_to_island_for ns1:holiday ;
+    ns1:committed_ ns1:past_crime ;
+    ns1:escaped_conviction_of ns1:past_crime ;
+    ns1:found_body_of ns1:Anthony_Marston ;
+    ns1:found_clue ns1:poem ;
+    ns1:has_firstname ns1:Emily ;
+    ns1:has_lastname ns1:Brent ;
+    ns1:has_predicate ns1:died_by,
+        ns1:had_killed_ ;
+    ns1:has_setting ns1:Indian_Island ;
+    ns1:heard_clue ns1:record ;
+    ns1:invited_by ns1:forgotten_acquaintance .
+
+ns1:had_killed ns1:has_time -1e+01 .
+
+ns1:died_by ns1:has_time 1e+00,
+        2e+00,
+        3e+00,
+        4e+00,
+        5e+00,
+        6e+00,
+        7e+00,
+        8e+00,
+        9e+00,
+        1e+01 .
+
+ns1:past_crime ns1:because_of ns1:alcoholism,
+        ns1:corruptness,
+        ns1:inheritance,
+        ns1:jealousy,
+        ns1:justice,
+        ns1:money,
+        ns1:reckless_driving,
+        ns1:religion,
+        ns1:self-preservation ;
+    ns1:had_killed_ ns1:21_people,
+        ns1:boy,
+        ns1:defendant,
+        ns1:employer,
+        ns1:lieutenant_,
+        ns1:maid,
+        ns1:patient,
+        ns1:suspect,
+        ns1:two_children .
+
